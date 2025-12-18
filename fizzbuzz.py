@@ -1,11 +1,4 @@
-for i in range(1, 16):
-    output = ''
-    if i % 3 == 0 or i % 5 == 0:
-        if i % 3 == 0:
-            output += 'fizz'
-        if i % 5 == 0:
-            output += 'buzz'
-        print(output)
-    else:
-        print(i)
-
+if i % 3 == 0 or i % 5 == 0:
+        print('fizz'*(i%3==0) + 'buzz'*(i%5==0)
+else:
+    print(i)
